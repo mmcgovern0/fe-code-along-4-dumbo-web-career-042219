@@ -112,3 +112,21 @@ figcaption {
   height: 0;
   line-height: 0;
 }
+
+/* media */
+img, video, audio {
+  max-width: 100%;
+}
+
+/*sections*/
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* universal layout */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
